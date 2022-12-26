@@ -216,23 +216,7 @@ export default function Register({ navigation }) {
             }}>Hide Password</Text>
           </TouchableOpacity>}
 
-          {show && <TouchableOpacity onPress={() => {
-            setShow(false)
-          }} style={{
-            paddingHorizontal: 5,
-            paddingVertical: 10,
-            justifyContent: 'flex-end',
-            alignItems: 'flex-end',
-            flexDirection: 'row'
-          }}>
-            <Icon size={windowWidth / 25} type='ionicon' color={colors.textPrimary} name='eye-outline' />
-            <Text style={{
-              left: 5,
-              color: colors.textPrimary,
-              fontFamily: fonts.secondary[600],
-              fontSize: windowWidth / 30
-            }}>Show Password</Text>
-          </TouchableOpacity>}
+
           <MyGap jarak={20} />
 
           <MyButton

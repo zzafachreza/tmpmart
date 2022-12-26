@@ -62,7 +62,7 @@ export default function Account({ navigation, route }) {
 
           <MyGap jarak={10} />
           <View>
-            <View
+            {/* <View
               style={{
                 marginVertical: 3,
                 padding: 10,
@@ -129,7 +129,7 @@ export default function Account({ navigation, route }) {
                 }}>
                 {user.alamat_toko}
               </Text>
-            </View>
+            </View> */}
 
 
             <View

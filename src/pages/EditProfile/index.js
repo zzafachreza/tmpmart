@@ -61,7 +61,7 @@ export default function EditProfile({ navigation, route }) {
           justifyContent: 'center',
           alignItems: 'center'
         }}>
-          <Text style={{
+          {/* <Text style={{
             fontFamily: fonts.secondary[600],
             fontSize: 12
           }}>Customer ID</Text>
@@ -69,10 +69,10 @@ export default function EditProfile({ navigation, route }) {
             fontFamily: fonts.secondary[600],
             fontSize: 15,
             color: colors.primary
-          }}>{data.id_customer}</Text>
+          }}>{data.id_customer}</Text> */}
         </View>
 
-        <MyInput
+        {/* <MyInput
           label="Nama Toko"
           iconname="home-outline"
           value={data.nama_toko}
@@ -94,7 +94,7 @@ export default function EditProfile({ navigation, route }) {
               alamat_toko: value,
             })
           }
-        />
+        /> */}
         <MyInput
           label="Nama Pribadi"
           iconname="person-outline"

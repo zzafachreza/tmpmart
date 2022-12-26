@@ -42,7 +42,7 @@ export default function Login({ navigation }) {
     });
 
     const backAction = () => {
-      Alert.alert("Raghiza", "Apakah kamu yakin akan keluar aplikasi ?", [
+      Alert.alert("TMP Mart", "Apakah kamu yakin akan keluar aplikasi ?", [
         {
           text: "Cancel",
           onPress: () => null,
@@ -185,7 +185,19 @@ export default function Login({ navigation }) {
             />
           )}
 
-
+          <TouchableOpacity onPress={() => navigation.navigate('Register')} style={{
+            padding: 10,
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}><Text style={{
+            fontSize: windowWidth / 28,
+            marginTop: 10,
+            fontFamily: fonts.primary[600],
+            textAlign: 'center',
+            color: colors.primary
+          }}>Belum memiliki akun ? <Text style={{
+            color: colors.secondary
+          }}>daftar disini</Text></Text></TouchableOpacity>
         </View>
       </ScrollView>
       {
